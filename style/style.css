@@ -224,8 +224,6 @@ footer a:hover {
 @media (max-width: 45.87rem) {
     main {
         gap: 0rem;
-        /* margin-top: 0px; */
-        /* padding-top: 0px; */
     }
 
     .input__box {
@@ -257,7 +255,7 @@ footer a:hover {
 
     footer {
         position: relative;
-        padding: 5% 0% 10% 0%;
+        padding: 7% 0% 10% 0%;
     }
 } 
 
