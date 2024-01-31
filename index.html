@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE-edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" type="image/png" sizes="16x16" href="assets/favicon.ico    ">
+    <link rel="stylesheet" type="text/css" href="style/style.css" />
+
+    <title>Decoder</title>
+</head>
+<body>
+    <header class="cabecalho">
+        <img src="assets/logo-alura.svg">
+    </header>
+    <main>
+        <section class="input__box">
+            <form>
+                <textarea id="input-textarea" placeholder="Digite seu texto"></textarea>
+            </form>
+            <div class="warning__box">
+                <img src="assets/exclamation-circle-icon.svg">
+                <p>Apenas letras minúsculas e sem acento.</p>
+            </div>
+            <div class="buttons__box">
+                <button id="encode-btn">Criptografar</button>
+                <button id="decode-btn">Descriptografar</button>
+            </div>
+        </section>
+        <section class="output_box">
+            <form>
+                <div class="img__box">
+                    <img src="assets/decoder-guy.svg">
+                    <div class="mesage__box">
+                        <h3>Nenhuma mensagem encontrada.</h3>
+                        <p>Digite um texto que você deseja criptografar ou descriptografar.</p>
+                    </div>
+                </div>
+                <textarea id="output-textarea" readonly>asasdasldaljaldjalkjdalsklkasdjlasdjdasasasdasldaljaldjalkjdalsklkasdjlasdjdasasasdasldaaskdjaskjdhasjdhakshaskjdhljaldjalkjdalsklkasdjlasdjdasasasdasldaljaldjalkjdalsklkasdjlasasdalsdlaksjlaskjldjaslkdjalsjdalskjldajdsdjdas</textarea>
+            </form>
+            <div class="copy__btn__box">
+                <button id="copy-btn">Copiar</button>
+            </div>
+        </section>
+    </main>
+    <footer>
+        Developed by <a href="https://github.com/jkss13" target="_blank">Karine Santos</a>
+    </footer>
+
+    <script src="main.js"></script>
+</body>
+</html>
