@@ -116,10 +116,6 @@ button {
     align-items: center;
 }
 
-/* .img__box img {
-    width: 80%;
-} */
-
 .mesage__box {
     width: 15.65rem;
     padding: 1.90rem 2rem;
@@ -227,11 +223,13 @@ footer a:hover {
 
 @media (max-width: 45.87rem) {
     main {
-        gap: 1.88rem;
+        gap: 0rem;
+        /* margin-top: 0px; */
+        /* padding-top: 0px; */
     }
 
     .input__box {
-        margin-top: 5.25rem;
+        margin-top: -2.75rem;
         width: 20rem;
     }
 
@@ -259,6 +257,35 @@ footer a:hover {
 
     footer {
         position: relative;
-        padding: 20% 0% 10% 0%;
+        padding: 5% 0% 10% 0%;
+    }
+} 
+
+@media (max-width: 42.81rem) {
+    main {
+        gap: 4rem;
+        height: 50vh;
+    }
+
+    .input__box {
+        margin-top: 30.25rem;
+        width: 20rem;
+    }
+
+    footer {
+        position: relative;
+        padding: 100% 0% 10% 0%;
+    }
+} 
+
+@media (max-width: 30.56rem) {
+    .input__box {
+        margin-top: 35.25rem;
+        width: 20rem;
+    }
+
+    footer {
+        position: relative;
+        padding: 200% 0% 10% 0%;
     }
 } 
