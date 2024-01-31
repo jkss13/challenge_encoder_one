@@ -2,6 +2,8 @@
 
 This project was built during the first challenge of the Oracle Next Education program, carried out by Oracle in partnership with Alura.
 
+![encoder print](assets/encoder.png)
+
 ## 🛠️ Technologies
 - Javascript;
 - HTML;
